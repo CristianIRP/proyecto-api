@@ -1,0 +1,57 @@
+body {
+    padding: 20px;
+  }
+  
+  .navbar.bg-gray {
+    background-color: #4a4a4a;
+  }
+
+ .logo {
+    width: 250px;
+    height: 150px;
+    margin-right: 10px;
+  }
+
+  #cards-container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 18rem;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
+  .navbar-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .navbar {
+    transition: transform 0.3s ease-out;
+  }
+  
+  .navbar-hidden {
+    transform: translateY(-100%);
+  }
+
+  body {
+    background-color: #2F2E2E;
+  }
